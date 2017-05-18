@@ -1,0 +1,15 @@
+#title_box{
+  border: 1px solid black;
+  width: 200px;
+  height: 80px;
+  margin-left: 80px;
+}
+#container{
+  width: 500px;
+  margin: 0px auto;
+}
+#clock_box{
+  border: 1px solid black;
+  width: 350px;
+  height: 80px;
+}

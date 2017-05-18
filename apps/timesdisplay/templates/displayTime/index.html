@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang ='en'>
+<head>
+  <meta charset="utf-8">
+  <title>Time Display</title>
+    {%load staticfiles %}
+  <link rel ='stylesheet' text='text/css' href="{% static 'displaytime/css/style.css' %}" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+  <div id='container'>
+    <p id ='title_box'>The current time and date:</p>
+    <p id ="clock_box">{{time}}</p>
+  </div>
+</body>
+</html>
